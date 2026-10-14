@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
 }
  
-/* Soft yellow light behind the tiles so the glass has something to blur */
+/* Soft yellow light behind*/
 body::before {
   content: "";
   position: fixed;
@@ -93,7 +93,7 @@ button:focus-visible {
   outline-offset: 3px;
 }
  
-/* Phones: much softer glow so the page does not turn fully yellow */
+/* Phones:softer glow*/
 @media (max-width: 767px) {
   body::before {
     background:

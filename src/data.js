@@ -1,5 +1,3 @@
-// All your portfolio content lives here. Edit text here, not inside App.jsx.
-
 export const profile = {
   name: "Vijay Pawar",
   title: "Java Full Stack Developer",
@@ -8,7 +6,7 @@ export const profile = {
   email: "vijaypawar6008@gmail.com",
   linkedin: "https://www.linkedin.com/in/vijay-pawar-41a575380",
   github: "https://github.com/vijaypawar30",
-  cv: "/Vijay_Pawar_CV.pdf", // put your PDF in the /public folder with this name
+  cv: "/Vijay_Pawar_CV.pdf", 
 };
 
 export const projects = [

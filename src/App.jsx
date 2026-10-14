@@ -1,9 +1,8 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
-import photo from "./assets/photo.png"; // rename "New pr photo.png" to photo.png
+import photo from "./assets/photo.png"; 
 import { profile, projects, skills, education, about, aboutGoal, dsaTopics } from "./data";
  
-// One orchestrated moment: tiles appear one after another on page load.
 function Tile({ className = "", children, item }) {
   return (
     <motion.section variants={item} className={`glass p-6 md:p-7 ${className}`}>
@@ -32,7 +31,6 @@ export default function App() {
         animate="show"
         className="grid grid-cols-1 gap-4 md:grid-cols-4 md:auto-rows-[minmax(11rem,auto)]"
       >
-        {/* Hero: the one memorable tile */}
         <Tile item={item} className="md:col-span-2 md:row-span-2 flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-4">
